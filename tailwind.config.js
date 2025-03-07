@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{html,js,jsx}"],
+  content: ['./index.html', './src/**/*.{html,js,jsx}'],
   theme: {
-    extend: {},
+    fontFamily: {
+      bigShoulders: 'Big Shoulders Stencil',
+    },
+    extend: {
+      height: {
+        screen: '100dvh',
+      },
+    },
   },
   plugins: [],
 };
